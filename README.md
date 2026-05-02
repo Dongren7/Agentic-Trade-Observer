@@ -25,8 +25,3 @@
 - **Framework**: Next.js / Node.js
 - **LLM Integration**: Claude / Gemini / GPT (Dynamic Routing)
 - **Data & APIs**: TradingView Webhooks, Notion API, Obsidian Sync
-
-## 🚀 为什么需要算力支持 (Roadmap)
-目前的 MVP 版本在小规模测试中已经验证了逻辑的闭环，但我将大部分时间节省下来的同时，也遇到了瓶颈：
-**深度的长链推理（Long-chain Reasoning）和多 Agent 之间的 Context 共享需要极大的 Token 消耗。** 
-未来计划接入更高维度的实时流数据并优化 Agent 的反思（Reflection）机制，因此迫切需要引入更强大的底层模型算力支持（如 MiMo）来完成系统的全面进化。
